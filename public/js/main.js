@@ -20,9 +20,11 @@ async function getInfo(e){
 }
 
 
+const fork_you = function (name) {
+    console.log(`Fork ${(name.find('louis')? 'you': name )}`);
+}
 
-
-
+fork_you(`louis`);
 
 
 
